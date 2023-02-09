@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+      <h1>Tic Tac Toe</h1>
+        <table>
+            <tr>
+              <td><input type="text" maxlength="1" class="boxes" id="box-1" onclick="myfunc_1(); my_func();"readonly></td>
+              <td><input type="text" maxlength="1" class="boxes" id="box-2" onclick="myfunc_2(); my_func();"readonly></td>
+              <td><input type="text" maxlength="1" class="boxes" id="box-3" onclick="myfunc_3(); my_func();"readonly></td>
+            </tr>
+            <tr>
+              <td><input type="text" maxlength="1" class="boxes" id="box-4" onclick="myfunc_4(); my_func();"readonly></td>
+              <td><input type="text" maxlength="1" class="boxes" id="box-5" onclick="myfunc_5(); my_func();"readonly></td>
+              <td><input type="text" maxlength="1" class="boxes" id="box-6" onclick="myfunc_6(); my_func();"readonly></td>
+            </tr>
+            <tr>
+              <td><input type="text" maxlength="1" class="boxes" id="box-7" onclick="myfunc_7(); my_func();"readonly></td>
+              <td><input type="text" maxlength="1" class="boxes" id="box-8" onclick="myfunc_8(); my_func();"readonly></td>
+              <td><input type="text" maxlength="1" class="boxes" id="box-9" onclick="myfunc_9(); my_func();"readonly></td>
+            </tr>
+          </table>
+          <br><br><br>
+          <div id="rst-btn-div">
+            <input  id="rst-btn" type="button" value="reset" onclick="reset_all()">
+          </div>  
+          <div id="turn-txt-div">
+            <p id="print"></p>
+          </div>
+
+          
+    </body>
+</html>
